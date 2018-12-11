@@ -1,5 +1,6 @@
 # DFAGSSH
 Simple SSH Mass Brute Force
+![](http://im-tec.kr/cms/inc/aqui.png)
 # Requerimentos
  * Python 2.7 
  * Paramiko Modulo
@@ -9,11 +10,5 @@ Simple SSH Mass Brute Force
  * Instalar o Paramiko: sudo pip install Paramiko
  * Instalar o Cryptography: sudo pip install cryptography
 # Usar
-  ____  _____ _    ____ ____ ____  _   _ 
- |  _ \|  ___/ \  / ___/ ___/ ___|| | | |
- | | | | |_ / _ \| |  _\___ \___ \| |_| |
- | |_| |  _/ ___ \ |_| |___) |__) |  _  |
- |____/|_|/_/   \_\____|____/____/|_| |_|
-
 usage: dfagssh.py (hostlist.txt) (user) (passwordlist.txt)
 
