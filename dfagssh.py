@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import paramiko
 import sys
 host = sys.argv[1]
@@ -38,4 +40,4 @@ else:
 				adicionar.write(linha2 + ":" + linha + "\n")
 				adicionar.close
 			except:
-				print red+"[-] Acesso Denied!"+end+blue+"HOST: ", linha2 + "PASS: ", linha+end
+				print red+"[-] Acesso Denied!"+end+blue+" HOST: ", linha2 + "PASS: ", linha+end
